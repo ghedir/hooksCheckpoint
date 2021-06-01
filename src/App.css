@@ -1,38 +1,29 @@
-.App {
+.header-title {
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 400;
+  font-size: 50px;
   text-align: center;
+  margin: 25px 0;
+  margin-left: -323px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#contained-modal-title-vcenter {
+  font-family: "Alfa Slab One", cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-input {
+  margin: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.stars-filter {
+  margin: 20px;
+  font-size: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.stars-add {
+  margin: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-movie {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body {
+  background-color: darkslategray;
 }
