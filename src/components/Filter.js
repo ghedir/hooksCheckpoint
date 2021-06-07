@@ -12,7 +12,7 @@ const Filter = ({ getSearchData }) => {
   };
   useEffect(() => {
     getSearchData({ ...searchInput, searchRate });
-  }, [searchInput, searchRate]);
+  }, [searchInput, searchRate]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div>
@@ -25,7 +25,6 @@ const Filter = ({ getSearchData }) => {
               id="outlined-basic"
               label="Search Here"
               variant="outlined"
-              color="info"
               onChange={handleSearch}
             />
           </Form>

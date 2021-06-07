@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Row } from "react-bootstrap";
 
 import { Button, Modal, InputGroup, FormControl } from "react-bootstrap";
 
@@ -28,7 +27,7 @@ const AddMovie = ({ getInputData }) => {
 
   return (
     <div className="add-movie">
-      <Button variant="info" onClick={() => setShow(true)} size="lg">
+      <Button className="btn-add" onClick={() => setShow(true)} size="lg">
         Add New Movie
       </Button>
       <Modal

@@ -1,0 +1,23 @@
+.movie-title {
+  font-family: "Dancing Script", cursive;
+  padding-left: 150px;
+}
+.stars {
+  font-size: 15px;
+}
+.detail-head {
+  margin: 20px;
+}
+.movie-stars {
+  padding-left: 200px;
+}
+.movie-trailer {
+  padding-left: 150px;
+}
+.movie-descrip {
+  text-align: center;
+  padding-top: 30px;
+}
+.description-header {
+  padding-left: 450;
+}

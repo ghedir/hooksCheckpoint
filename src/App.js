@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MovieList from "./components/MovieList";
-import movies from "./movieData.js";
+import movies from "./components/movieData.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import AddMovie from "./components/AddMovie";

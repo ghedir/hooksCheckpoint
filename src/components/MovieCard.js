@@ -1,9 +1,10 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import StarRatingComponent from "react-star-rating-component";
 
 const MovieCard = ({ movie }) => {
-  const { title, description, posterURL, rating } = movie;
+  const { id, title, description, posterURL, rating } = movie;
 
   return (
     <div className="movie" style={{ marginTop: "50px" }}>
@@ -12,9 +13,15 @@ const MovieCard = ({ movie }) => {
         className="d-flex justify-content-start m-3"
       >
         <Card.Img variant="top" src={posterURL} style={{ height: 400 }} />
-        <Card.Body style={{ height: 280 }}>
+        <Card.Body style={{ height: 350 }}>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
+
+          <Link to={`/detail/${id}`} style={{ textDecoration: "none" }}>
+            <Button variant="info" size="lg">
+              Movie Details
+            </Button>
+          </Link>
         </Card.Body>
         <Card.Footer className="text-muted">
           <StarRatingComponent

@@ -8,6 +8,7 @@ const movies = [
     posterURL:
       "https://fr.web.img6.acsta.net/c_310_420/pictures/21/01/04/17/52/0328539.jpg",
     rating: 5,
+    trailer: "https://www.youtube.com/embed/wZti8QKBWPo",
   },
   {
     id: uuidv4(),
@@ -17,6 +18,7 @@ const movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BMWQ3N2EzNjYtMzgwYS00YjdmLThmOTUtMzc4NDUxZjZkY2RhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
     rating: 2,
+    trailer: "https://www.youtube.com/embed/8IqXgZd-P98",
   },
 
   {
@@ -27,6 +29,7 @@ const movies = [
     posterURL:
       "https://fr.web.img6.acsta.net/c_310_420/pictures/21/02/17/16/12/0290309.jpg",
     rating: 3,
+    trailer: "https://www.youtube.com/embed/jpZrVxvG3mk",
   },
 ];
 export default movies;
